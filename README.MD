@@ -62,7 +62,7 @@ The NAT Gateway depends on the Internet Gateway to be successfully created. The 
 
 1. **Initialize Terraform**:
    Run the following command to initialize the working directory and download necessary providers:
-   terraform init
-   terraform plan 
-   terraform apply -auto-approve 
-   terraform destroy -auto-approve
+   - terraform init
+   - terraform plan 
+   - terraform apply -auto-approve 
+   - terraform destroy -auto-approve
