@@ -16,20 +16,15 @@ variable "enable_dns_hostnames"{
 
 #optional
 variable "common_tags"{
-    default = {
-    }
+    default = {}
 }
 #optional
 variable "vpc_tags"{
-    default = {
-
-    }
+    default = {}
 }
 
 variable "igw_tags"{
-    default = {
-
-    }
+    default = {}
 }
 
 variable "public_subnet_cidrs"{
@@ -41,8 +36,7 @@ variable "public_subnet_cidrs"{
 }
 
 variable "public_subnet_tags"{
-    default = {     
-    }
+    default = {}
 }
 
 variable "private_subnet_cidrs"{
@@ -54,8 +48,7 @@ variable "private_subnet_cidrs"{
 }
 
 variable "private_subnet_tags"{
-    default = {     
-    }
+    default = {}
 }
 
 variable "database_subnet_cidrs"{
@@ -67,8 +60,7 @@ variable "database_subnet_cidrs"{
 }
 
 variable "database_subnet_tags"{
-    default = {     
-    }
+    default = {}
 }
 
 variable "db_subnet_group_tags"{
